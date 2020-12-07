@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetClinic</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header  class="header">
+        <div class="header__regular">
+            <div class="contacts-block">
+                <a href="tel:0975370888">0975370888</a>
+                <span class="contacts-block__line"></span>
+                <a href="https://www.google.com.ua/maps/@49.8341074,24.0204731,12z?hl=ru">Степана Бандери 12, Львів, Україна</a>
+            </div>
+            <div class="socialmedia-block">
+                <div class="socialmedia-block__link instagram">
+                    <a href="" target="_blank"><i class="fa fa-instagram fa"></i></a>
+                </div>
+                <div class="socialmedia-block__link facebook">
+                    <a href="" target="_blank"><i class="fa fa-facebook fa"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header__menu">
+                <nav class="nav-manu">
+                    <ul class="nav-manu__block">
+                        <li class="nav-manu__button"><a href="#about" class="href">ПРО НАС</a></li>
+                        <li class="nav-manu__button"><a href="#review" class="href">ВІДГУКИ</a></li>
+                        <li ><a class="nav-menu__logo" href="#"><img src="/img/logo.png" alt=""></a></li>
+                        <li class="nav-manu__button"><a href="#cont" class="href">НАПИШІТЬ НАМ</a></li>
+                        <li class="nav-manu__button"><a href="#map" class="href">КОНТАКТИ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header"></div>
+    </header>
+    <div class="about">
+		<div class="container">
+			<div class="about-info">
+                <h3 >Про нас</h3>
+                <a name="about"></a>
+				<div class="about-info-bottom">
+					<div class="col-md-4 about-left">
+						<img src="/img/4-slider-2.jpg" width="658px"  class="img-responsive" alt="" />
+						<h5 >lorem lipsum doolr in groem horntim</h5>
+					</div>
+					<div class="col-md-8 about-right">
+
+						<p >"Lorem Ipsum is simply dummy text of the printing and typesetting i
+							ndustry. Lorem Ipsum has been the industry's standard dummy text
+							ever since the 1500s<br /><br /> reproduced below for those interested. Sections 1.10.32
+							and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
+							are also reproduced in their exact original form, accompanied
+							by English versions from the 1914 translation by H. Rackham
+							Lorem Ipsum is simply dummy text of the printing and typesetting i
+							ndustry. Lorem Ipsum has been the industry's standard dummy text
+							ever since the 1500s"</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <section name="review" class="reviews">
+        <div class="container">
+            <h3 class="main-title" id="review">Відгуки</h3>
+            <div class="grid-4">
+                <div class="grid1">
+                    <img src="/img/pic8.jpg" width="200px" alt="" class="review-img">
+                    <h3 class="adv-title">Наталя</h2>
+                        <span class="adv-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
+                            dicta?</span>
+                </div>
+                <div class="grid1">
+                    <img src="/img/pic8.jpg" width="200px" alt="" class="review-img">
+                    <h3 class="adv-title">Олександр</h2>
+                        <span class="adv-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Perferendis, consequuntur.</span>
+                </div>
+                <div class="grid1">
+                    <img src="/img/pic8.jpg" width="200px" alt="" class="review-img">
+                    <h3 class="adv-title">Ірина</h2>
+                        <span class="adv-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+                            beatae!</span>
+                </div>
+                <div class="grid1">
+                    <img src="/img/pic8.jpg" width="200px" alt="" class="review-img">
+                    <h3 class="adv-title">Андрій</h2>
+                        <span class="adv-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+                            at.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a name="map"></a>
+    <div class="home-map">
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.3560219176384!2d24.012099815067785!3d49.83576763934541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7a31f0dccd%3A0x9869cc7025bc8e3f!2z0JvRjNCy0ZbQstGB0YzQutCwINC_0L7Qu9GW0YLQtdGF0L3RltC60LA!5e0!3m2!1suk!2sua!4v1607339519488!5m2!1suk!2sua"
+			frameborder="0" style="border:0"></iframe>
+    </div>
+    <div  class="contact">
+		<div class="container">
+            <a name="cont"></a>
+			<div class="contact-info">
+				<h4>Напишіть нам</h4>
+				<p>Вкажіть в повідомлені свій номер телефону та ми вам передзвонимо</p>
+			</div>
+			<form>
+				<input type="text" class="text" value="Ім'я" onfocus="this.value = '';"
+					onblur="if (this.value == '') {this.value = 'Ім&#8217я';}">
+				<input type="text" class="text" value="Електронна адреса" onfocus="this.value = '';"
+					onblur="if (this.value == '') {this.value = 'Електронна адреса';}">
+				<textarea onfocus="if(this.value == 'Повідомлення') this.value='';"
+					onblur="if(this.value == '') this.value='Повідомлення';">Повідомлення</textarea>
+				<div class="clearfix"> </div>
+				<input type="submit" value="Надіслати">
+			</form>
+
+		</div>
+    </div>
+    <div class="footer">
+		<div class="container">
+			<div class="copy-rights">
+				<p>Design by Liashovskyi Andrii</p>
+			</div>
+
+		</div>
+	</div>
+</body>
+
+</html>
